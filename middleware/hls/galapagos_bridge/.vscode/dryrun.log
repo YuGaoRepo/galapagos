@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/gaoyu/ECE2500Y/galapagos/middleware/hls/galapagos_bridge'
+mkdir -p /home/gaoyu/ECE2500Y/galapagos/hlsBuild/sidewinder/ip/galapagos_bridge
+vivado_hls /home/gaoyu/ECE2500Y/galapagos/middleware/hls/galapagos_bridge/generate_hls.tcl
+if [ "/home/gaoyu/ECE2500Y/galapagos" = "" ]; then \
+	echo "Variable GALAPAGOS_PATH not set"; \
+	exit 1; \
+fi
+if [ "/mnt/shares/tools/Xilinx/Vivado/2019.1" = "" ]; then \
+	echo "Variable GALAPAGOS_HLS_PATH not set"; \
+	exit 1; \
+fi
+if [ "sidewinder" = "" ]; then \
+	echo "Variable GALAPAGOS_BOARD_NAME not set"; \
+	exit 1; \
+fi
+make: Leaving directory '/home/gaoyu/ECE2500Y/galapagos/middleware/hls/galapagos_bridge'
+ 

@@ -1,0 +1,422 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Aug 13 04:44:12 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = xfce
+# default
+.SHELLFLAGS := -c
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+GALAPAGOS_VIVADO_VERSION = 2019.1
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-Q3yBm8Jbyp1V/agent.779
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/gaoyu/ECE2500Y/galapagos/middleware
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/71
+# environment
+VTE_VERSION = 4205
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# environment
+GALAPAGOS_PART = xczu19eg-ffvc1760-2-i
+# environment
+SNAP_ARCH = amd64
+# environment
+XILINXD_LICENSE_FILE = 40012@mlm.ece.utoronto.ca:27012@mlm.ece.utoronto.ca
+# makefile (from '/home/gaoyu/ECE2500Y/galapagos/include.mk', line 1)
+MAKEFILE_LIST :=  Makefile /home/gaoyu/ECE2500Y/galapagos/include.mk
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-wndf59GTbp,guid=d03bcd905190a4a715d818f6611472a3
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+GLADE_PIXMAP_PATH = :
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/gaoyu/ECE2500Y/galapagos/middleware
+# environment
+XILINX_VITIS = /mnt/shares/tools/Xilinx/Vitis/2020.2
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/71/usr/share/glib-2.0/schemas
+# environment
+SSH_CONNECTION = 10.10.14.134 57226 10.84.33.101 22
+# environment
+GALAPAGOS_BANDWIDTH = 100G
+# environment
+PATH = /mnt/shares/tools/Xilinx/Vitis/2020.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/arm/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-linux/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/tps/lnx64/cmake-3.3.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/aietools/bin:/mnt/shares/tools/Xilinx/Vitis_HLS/2020.2/bin:/mnt/shares/tools/Xilinx/Vivado/2020.2/bin:/mnt/shares/tools/Xilinx/DocNav:/mnt/shares/tools/Xilinx/Vitis/2020.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/arm/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-linux/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/tps/lnx64/cmake-3.3.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/aietools/bin:/mnt/shares/tools/Xilinx/Vitis_HLS/2020.2/bin:/mnt/shares/tools/Xilinx/Vivado/2020.2/bin:/mnt/shares/tools/Xilinx/DocNav:/home/gaoyu/bin:/home/gaoyu/.local/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/arm/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-linux/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/tps/lnx64/cmake-3.3.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/aietools/bin:/mnt/shares/tools/Xilinx/Vitis_HLS/2020.2/bin:/mnt/shares/tools/Xilinx/Vivado/2020.2/bin:/mnt/shares/tools/Xilinx/DocNav:/mnt/shares/tools/Xilinx/Vitis/2020.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/arm/lin/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-linux/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/aarch64/lin/aarch64-none/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/tps/lnx64/cmake-3.3.2/bin:/mnt/shares/tools/Xilinx/Vitis/2020.2/aietools/bin:/mnt/shares/tools/Xilinx/Vitis_HLS/2020.2/bin:/mnt/shares/tools/Xilinx/Vivado/2020.2/bin:/mnt/shares/tools/Xilinx/DocNav:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XILINX_VIVADO = /mnt/shares/tools/Xilinx/Vivado/2020.2
+# environment
+GALAPAGOS_VIVADO_PATH = /mnt/shares/tools/Xilinx/Vivado/2019.1
+# environment
+SESSION_MANAGER = local/Gaoyu:@/tmp/.ICE-unix/768,unix/Gaoyu:/tmp/.ICE-unix/768
+# environment
+SSH_TTY = /dev/pts/0
+# environment
+XDG_RUNTIME_DIR = /run/user/1001
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/gaoyu/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/71
+# environment
+WINDOWID = 37760826
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+BREAKPAD_DUMP_LOCATION = /home/gaoyu/.config/Code/exthost Crash Reports
+# environment
+SNAP_VERSION = 379476f0
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=5ccc29a7-5a6f-47fb-86a6-befd4774840e&iid=5ccc29a7-5a6f-47fb-86a6-befd4774840e&sid=5ccc29a7-5a6f-47fb-86a6-befd4774840e","uploadToServer":true}
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/71/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+SWT_GTK3 = 0
+# environment
+GLADE_MODULE_PATH = :
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+GALAPAGOS_BOARD = fidus.com:sidewinder100:part0:1.0
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/gaoyu/ECE2500Y/galapagos/middleware
+# environment
+SSH_AGENT_PID = 780
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/gaoyu
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/gaoyu/.config/Code/CachedData/379476f0e13988d90fab105c5c19e7abc8b1dea8
+# environment
+LOGNAME = gaoyu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = KF8mAibp23SdGg8BPdtutqPGYVlUYpohvAg4q4J6hzjpVFhWLoqJ
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/gaoyu/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+GLADE_CATALOG_PATH = :
+# environment
+SNAP_REAL_HOME = /home/gaoyu
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SNAP_USER_DATA = /home/gaoyu/snap/code/71
+# environment
+SHLVL = 2
+# environment
+GALAPAGOS_PATH = /home/gaoyu/ECE2500Y/galapagos
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1001/vscode-ipc-271b53af-4037-4772-97e4-cc664cab690a.sock
+# environment
+XDG_SESSION_ID = 18306
+# environment
+USER = gaoyu
+# environment
+SNAP_REVISION = 71
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VNCDESKTOP = Gaoyu:1 (gaoyu)
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+GALAPAGOS_PART_FAMILY = Zynq_Ultrascale_Plus
+# environment
+VSCODE_IPC_HOOK = /run/user/1001/vscode-78ed8049-1.59.0-main.sock
+# environment
+GALAPAGOS_HLS_VERSION = 2019.1
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 10.10.14.134 57226 22
+# environment
+MAIL = /var/mail/gaoyu
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 19)
+hls_path = $(middleware_path)/hls
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 18)
+middleware_path = $(GALAPAGOS_PATH)/middleware
+# environment
+SNAP_COOKIE = KF8mAibp23SdGg8BPdtutqPGYVlUYpohvAg4q4J6hzjpVFhWLoqJ
+# makefile (from '/home/gaoyu/ECE2500Y/galapagos/include.mk', line 40)
+INCLUDE_UTIL = -I $(GALAPAGOS_PATH)/util/Catch2/single_include/catch2 -I$(GALAPAGOS_PATH)/util/spdlog/include
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 20)
+python_path = $(middleware_path)/python
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+XILINX_HLS = /mnt/shares/tools/Xilinx/Vitis_HLS/2020.2
+# environment
+GALAPAGOS_HLS_PATH = /mnt/shares/tools/Xilinx/Vivado/2019.1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GALAPAGOS_BOARD_NAME = sidewinder
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 37068
+# variable set hash-table stats:
+ 
+# Load=130/1024=13%, Rehash=0, Collisions=20/171=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2097335, inode 130559): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+guard-%:
+#  recipe to execute (from '/home/gaoyu/ECE2500Y/galapagos/include.mk', line 48):
+	@ if [ "${${*}}" = "" ]; then \
+		echo "Variable $* not set"; \
+		exit 1; \
+	fi
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+all: middleware hlsmiddleware
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+.PHONY: middleware
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+guard-MAPFILE:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-10 00:33:18.531317732
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+guard-PROJECTNAME:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: guard-PROJECTNAME
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	 $(MAKE) -C $(hls_path) clean
+	 rm -rf ${GALAPAGOS_PATH}/projects/${PROJECTNAME}
+	 rm -rf ${GALAPAGOS_PATH}/createCluster.sh
+	 rm -rf ${GALAPAGOS_PATH}/createSim.sh
+
+hlsmiddleware:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	 $(MAKE) -C $(hls_path)
+
+guard-LOGICALFILE:
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'LOGICALFILE'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := guard-LOGICALFILE
+# automatic
+# % := 
+# automatic
+# * := LOGICALFILE
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  recipe to execute (from '/home/gaoyu/ECE2500Y/galapagos/include.mk', line 48):
+	@ if [ "${${*}}" = "" ]; then \
+		echo "Variable $* not set"; \
+		exit 1; \
+	fi
+
+# Not a target:
+/home/gaoyu/ECE2500Y/galapagos/include.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-10 00:33:18.527317564
+#  File has been updated.
+#  Successfully updated.
+
+middleware: guard-LOGICALFILE guard-MAPFILE guard-PROJECTNAME
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  recipe to execute (from 'Makefile', line 27):
+	python3.5 ${python_path}/globalFPGAParser.py --logicalFile=${LOGICALFILE} \
+		--mapFile=${MAPFILE} --projectName=${PROJECTNAME}
+	chmod +x $(GALAPAGOS_PATH)/projects/$(PROJECTNAME)/createCluster.sh
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 301 B / avg = 10 B
+# current buf: size = 8162 B / used = 301 B / count = 28 / avg = 10 B
+
+# strcache performance: lookups = 43 / hit rate = 34%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=1/43=2%
+# Finished Make data base on Fri Aug 13 04:44:12 2021
+
+ 
